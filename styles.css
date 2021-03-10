@@ -1,0 +1,9 @@
+input {
+    display:block;
+}
+.formulario-div {
+    width: 300px;
+    height: 350px;
+    border: solid black 2px;
+    margin: 5px auto;
+}
