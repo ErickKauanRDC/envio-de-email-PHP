@@ -5,12 +5,13 @@
     </header>
     <body>
         <div class='formulario-div'>
+            <h1></h1>
             <form method="post" action="email.php">
-                <label for="remet"> Remetente </label> <input type="text" name="remet">
-                <label for="email"> Email </label> <input type="email" name="email">
-                <label for="subject"> Assunto </label> <input type="text" name="subject">
-                <label for="body"> Corpo do Email </label> <textarea name="body" id="body" cols="30" rows="10"></textarea>
-                <input type="submit">
+                <input placeholder = "Seu Nome" type="text" name="remet">
+               <input placeholder = "Seu Email"type="email" name="email">
+                <input placeholder = "Assunto"type="text" name="subject">
+               <textarea placeholder = "Digite aqui sua mensagem para ericktestes28@gmail.com"name="body" id="body" cols="30" rows="10"></textarea>
+                <input id='enviar-button' type="submit">
             </form>  
         </div>
     </body>
