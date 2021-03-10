@@ -33,12 +33,16 @@
         <br></br>
         Email :  $email  
         <br></br>
-        $corpo" ;
+        $corpo " ;
 
         $mail ->send();
-
+        echo "<script>window.location.href = 'index.php' 
+        window.alert('Email Enviado com Sucesso');
+        </script>";
         }
         catch(Exception $e){
-        echo "Erro :P {$mail->ErrorInfo}";
+            echo "<script>window.location.href = 'index.php' 
+            window.alert('Email Não enviado');
+            </script>";
         }
 ?>
